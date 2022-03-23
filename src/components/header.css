@@ -1,0 +1,10 @@
+.Header{
+    width: 100%;
+    /* background-color: aqua; */
+    /* height: 10rem; */
+}
+
+.Header img{
+    width: 50%;
+    /* height: 100%; */
+}

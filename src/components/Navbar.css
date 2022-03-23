@@ -1,0 +1,52 @@
+.Navbar {
+    /* background-color: aqua; */
+    width: 90%;
+    height: 3rem;
+    margin: 0 auto;
+    /* padding: 0 .5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Lato;
+}
+
+.Navbar_links{
+    display: flex;
+    justify-content:end;
+    width: 40%;
+}
+
+.Navbar_links a{
+    text-decoration: none;
+}
+
+.Navbar span{
+    margin: 0 .3rem;
+    background-color: rgb(214, 214, 214);
+    color: black;
+    width: 3rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.Navbar_options{
+        /* border: .1rem solid #d2d7dd; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 60%;
+    height: 2rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.Navbar_options input{
+    display: none;
+}
+.Navbar_options label{
+    padding: 0 .3rem;
+}
