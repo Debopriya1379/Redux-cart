@@ -19,7 +19,7 @@ const ProductComponent = ({product}) => {
         <span className='add_To_Cart_button' onClick={()=>{addCart({product})}}>C</span>
         <Link to={`/product/${product.id}`}>
         <div className="product_image">
-            <img src={product.image} alt="product image" />
+            <img src={product.image} alt="product" />
         </div>
         </Link>
         <div className="product_details">

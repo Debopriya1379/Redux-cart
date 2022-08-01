@@ -43,7 +43,7 @@ const ProductDetails = () => {
             <div className="Product">
               {/* <span className='add_To_Cart_button' onClick={()=>{addCart({product})}}>ADD</span> */}
               <div className="product_image">
-                <img src={product.image} alt="product image" />
+                <img src={product.image} alt="product" />
               </div>
               <div className="product_details_all">
                 <div className="name_and_price">
